@@ -32,9 +32,9 @@ function Hero() {
             <h1>Adamu Haladu</h1>
             <h2>Fullstack Developer </h2>
             <span>
-                <a href=""><img src={twitterIcon} alt="Twitter Icon" /></a>
+                <a href="https://x.com/neoscar_10"><img src={twitterIcon} alt="Twitter Icon" /></a>
                 <a href="https://github.com/neoscar10"><img src={githubIcon} alt="Github Icon" /></a>
-                <a href=""><img src={linkedinIcon} alt="Linkedin Icon" /></a>
+                <a href="https://www.linkedin.com/in/haladu-adamu-59b891232/"><img src={linkedinIcon} alt="Linkedin Icon" /></a>
             </span>
             <p>Passionate about full stack development, I create innovative solutions that integrate frontend and backend for dynamic, user-centric applications.</p>
             <a href={CV} download>
