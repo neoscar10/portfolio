@@ -14,16 +14,16 @@ function Projects() {
      <div className={styles.projectsContainer}>
         
         <ProjectCard
-          src={currencyConverter}
-          link="https://github.com/neoscar10/Currency-converter-with-Nodejs"
-          h3="Currency Converter"
-          p="A currency converter using live data from an API"
-        />
-        <ProjectCard
           src={attendanceSyst}
           link="https://github.com/neoscar10/Django-RFID-based-attendance-system"
           h3="Django-RFID Attendance SYStem"
           p="An IoT project where A Micro-controller(ESP-8266) communicates and sends Attendance data to a Django backend via APIs"
+        />
+        <ProjectCard
+          src={currencyConverter}
+          link="https://github.com/neoscar10/Currency-converter-with-Nodejs"
+          h3="Currency Converter"
+          p="A currency converter using live data from an API"
         />
         <ProjectCard
           src={simonGame}
