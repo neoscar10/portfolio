@@ -4,6 +4,7 @@ import ProjectCard from '../../common/ProjectCard';
 import currencyConverter from "../../assets/currency_converter.png"
 import simonGame from "../../assets/simon-game.jpeg"
 import attendanceSyst from "../../assets/attendanceSystem.jpg"
+import keeper from "../../assets/keeper.JPG"
 
 
 
@@ -20,6 +21,12 @@ function Projects() {
           p="An IoT project where A Micro-controller(ESP-8266) communicates and sends Attendance data to a Django backend via APIs"
         />
         <ProjectCard
+          src={keeper}
+          link="https://github.com/neoscar10/Keeper.git"
+          h3="Keeper App"
+          p="An App similar to the google keeper app made with React"
+        />
+        <ProjectCard
           src={currencyConverter}
           link="https://github.com/neoscar10/Currency-converter-with-Nodejs"
           h3="Currency Converter"
@@ -31,6 +38,8 @@ function Projects() {
           h3="Simon Game"
           p="A simple yet Intresting game made from HTML,CSS and JS"
         />
+
+
      </div>
     </section>
   );
